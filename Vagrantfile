@@ -10,7 +10,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "centos65-mroonga"
+  config.vm.define :centos65_mroonga do |vagrant|
+    vagrant.vm.box = "centos65-mroonga"
+    vagrant.vm.host_name = "centos65-mroonga"
+    vagrant.vm.network "public_network"
+  end
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
