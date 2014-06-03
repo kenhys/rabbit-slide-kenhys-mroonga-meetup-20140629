@@ -1,4 +1,4 @@
-= タイトル
+= Mroonga Meetup
 
 # : subtitle
 #    サブタイトル
@@ -8,12 +8,12 @@
 #    所属
 # : content-source
 #    イベント名
-# : date
-#    2014/06/03
+: date
+   2014/06/29
 : allotted-time
    90m
-# : theme
-#    default
+: theme
+   .
 
 = 最初のスライド
 
