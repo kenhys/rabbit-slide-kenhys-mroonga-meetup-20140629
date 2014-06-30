@@ -110,14 +110,14 @@
 
 * Fedora 20
   * MySQL 5.5 & MariaDB 5.5対応
-  * MariaDB 5.5がつらいのでやや古い
+  * MariaDB 5.5対応がつらいのでやや古い
   * Fedora公式リポジトリでは未リリース
     * Mroonga含めてインストールしたいならGroongaリポジトリを登録する
 
 = Mroonga on Windows
 
 * 従来zipのみ提供
-* ビルド協力者増加によりmsiも提供
+* (('del:ビルド協力者増加によりmsiも提供'))
 
 = Mroongaの動作モードの違い
 
